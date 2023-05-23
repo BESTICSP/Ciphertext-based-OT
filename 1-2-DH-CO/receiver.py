@@ -40,7 +40,7 @@ class Bob:
         key = pow(A,self.b,self.p)
         de_messages = []
         for message in messages:
-            de_msg = self.str_xor(message, str(key) + 'jhkppo')
+            de_msg = self.str_xor(message, str(key) + 'lianqiao love study')
             de_messages.append(de_msg)
         return de_messages[int(self.want_message)]
 
